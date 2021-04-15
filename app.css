@@ -31,7 +31,8 @@ h2{
 
 h4{
     color: #20639B;
-    font-size: 30px;
+    font-size: 25px;
+    margin-top: 10px;
     margin-bottom: 10px;
     text-align: left;
 }
@@ -59,6 +60,12 @@ input[type=text], input[type=email]{
     margin-bottom: 20px;
     padding: 20px;
     outline:none;
+}
+
+.input-group:nth-child(4) > .input-box:nth-child(1) h4 {
+    display: inline-block;
+    width: 100%;
+    margin-top: 40px;
 }
 
 .input-group:nth-child(4) .input-box {
@@ -122,7 +129,22 @@ button{
     letter-spacing: 5px;
 }
 
-@media screen and (max-width:767px){
+@media screen and (max-width:768px){
+    h2{
+        font-size: 30px;
+    }
+
+    h4{
+        font-size: 18px;
+    }
+
+    .input-group h4{
+        font-size: 16px;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:430px){
     h2{
         font-size: 30px;
     }
