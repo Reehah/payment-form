@@ -140,6 +140,14 @@ button{
         justify-content: center;
     }
 
+    input[type=tel]{
+        width:80%;
+        padding: 20px;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #3CAEA3;
+    }
+
     .input-group:nth-child(4) .input-box {
         flex-direction: column;
         justify-content: flex-start;
@@ -161,6 +169,12 @@ button{
     .input-group:nth-child(7) .input-box select{
         margin-bottom: 20px;
         width: 100%;
+    }
+
+    .input-group:nth-child(8) .input-box button[type='submit']{
+        padding: 20px 20px;
+        font-size: 13px;
+        font-weight: bold;
     }
 }
 
